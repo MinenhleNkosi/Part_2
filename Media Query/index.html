@@ -1,114 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="styles.css" rel="stylesheet">
     <title>Facebook Login/Sign Up Page</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="left">
-            <h1>facebook</h1>
-            <p>Connect with friends and the world around you on Facebook.</p>
-        </div>
+        <div class="container">
 
-        <div class="right">
-            <div class="form">
-
+            <div class="left">
+                <h1>facebook</h1>
+                <h2 class="message">Facebook helps you connect and share with the people in your life.</h2>
             </div>
-            <form action="#" method="POST" class="myForm"></form>
-            <input class="mail" type="email" placeholder="Email address or phone number">
-            <input class="pass" type="password" placeholder="Password">
-            <div><button class="btn">Log In</button></div>
-            <p id="forgetPass2" class="link"><a href="#">Forgetten account?</a></p>
-            <hr id="hr1">
-            <button class="btn1">Create New Account</button>
-        </form>
-        <p class="foot"><b href="">Create a page</b> for a celebrity, brand or buisness.</p>
 
-        <div class="footer">
-            <div class="languages">
-                <div>
-                    <p>English (UK)</p>
-                    <p>
-                        <a class="lang" onclick="" title="Afrikaans" href="">Afrikaans</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="French (France)" href="">Francais (France)</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Portugues (Portugal)" href="">Portugues (Portugal)</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Germain" href="">Deutsch</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Spanish" href="">Espanol</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Italian" href="">Italiano</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Thai" href="">नेपाली</a>
-                    </p>
-                    <p>
-                        <a class="lang" onclick="" title="Hindi" href="">हिन्दी</a>
-                    </p>
-                    <p><i class="fa fa-plus-square" title="Show more languages" href=""></i></p>
+            <div class="right">
+                <div class="login">
+                    <form>
+                        <div class="form">
+                            <input type="text" class="form-element" name="email" id="email"
+                                placeholder="Email address or phone number" autofocus="1"
+                                aria-label="Email address or phone number">
+                        </div>
+                        <div class="form">
+                            <input type="password" class="form-element" name="pass" id="pass" placeholder="Password"
+                                aria-label="Password">
+                        </div>
+                        <div class="form">
+                            <button class="button custom-button" id="loginBtn" name="login" type="submit">Log
+                                In</button>
+                        </div>
+                        <div class="form mb-2">
+                            <a href="#" class="onhover">Forgotten password?</a>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="form">
+                            <a href="#" class="button custom-button" role="button" id="createNewAccountBtn">Create New
+                                Account</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="create-page">
+                    <a href="#" class="onhover" id="create-page-message">Create a Page</a> for a celebrity,
+                    band or business.
                 </div>
             </div>
-
-            <div class="nav">
-                <ul>
-                    <a onclick="" href="">
-                        <p>Sign Up</p>
-                    </a>
-                    <a onclick="" href="">
-                        <p>Log In</p>
-                    </a>
-                    <a href="">
-                        <p>Messenger</p>
-                    </a>
-                    <a href="">
-                        <p>Facebook Lite</p>
-                    </a>
-                    <a href="">
-                        <p>Watch</p>
-                    </a>
-                    <a href="">
-                        <p>People</p>
-                    </a>
-                    <a href="">
-                        <p>Pages</p>
-                    </a>
-                    <a href="">
-                        <p>Groups</p>
-                    </a>
-                    <a href="">
-                        <p>Jobs</p>
-                    </a>
-                    <a href="">
-                        <p>Instagram</p>
-                    </a>
-                    <a href="">
-                        <p>Services</p>
-                    </a>
-                    <a href="">
-                        <p>Privacy</p>
-                    </a>
-                    <a href="">
-                        <p>Terms</p>
-                    </a>
-                    <a href="">
-                        <p>Help</p>
-                    </a>
-                </ul>
-            </div>
         </div>
+    <footer>
+        <div class="row">
+            <ul class="list mb-0">
+                <p class="">English (UK)</p>
+                <li class="list-item"><a href="#" class="onhover" title="Afrikaans">Afrikaans</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="French (France)">Français (France)</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Portuguese (Portugal)">Português (Portugal)</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="German">Deutsch</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Spanish">Español</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Arabic">العربية</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Thai">ภาษาไทย</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Italian">Italiano</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Hindi">हिन्दी</a></li>
+                <li class="list-item"><a href="#" class="onhover"title="Chinese (China)">中文(简体)</a></li>
+            </ul>
         </div>
-    </div>
-    </div>
+        <div class="hr"></div>
+        <div class="footer">
+            <ul class="list mb-3">
+                <li class="list-item"><a href="#" class="onhover" title="Sign up for Facebook">Sign Up</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Log in to Facebook">Log In</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Take a look at Messenger.">Messenger</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Facebook Lite for Android.">Facebook Lite</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Browse our people directory.">People</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Browse our Pages directory.">Pages</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Browse our places directory.">Locations</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Apply for jobs and hire on Facebook.">Jobs</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Take a look at Instagram">Instagram</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Browse our Facebook Services directory.">Services</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Read our blog, discover the resource centre and find job opportunities.">About</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Develop on our platform.">Developers</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Make your next career move to our brilliant company.">Careers</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Learn about your privacy and Facebook.">Privacy</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Review our terms and policies.">Terms</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="Visit our Help Centre.">Help</a></li>
+                <li class="list-item"><a href="#" class="onhover" title="View and edit your Facebook settings.">Settings</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            Facebook © 2021
+        </div>
+    </footer>
 </body>
+
 </html>
